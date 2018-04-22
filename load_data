@@ -1,0 +1,5 @@
+rm QuillCCart.so
+cd Python\ Cart/python
+python setup.py build_ext --inplace
+cp QuillCCart.so ../../
+cd ../../
